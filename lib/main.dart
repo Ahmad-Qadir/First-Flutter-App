@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './app_screen/display.dart';
+import './app_screen/widgets.dart';
 
 void main() {
   runApp(BasedUI());
@@ -9,8 +9,8 @@ class BasedUI extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-        title: "First Flutter App",
+        title: "Profile Information",
         debugShowCheckedModeBanner: false,
-        home: FirstScreen());
+        home: MainView());
   }
 }
